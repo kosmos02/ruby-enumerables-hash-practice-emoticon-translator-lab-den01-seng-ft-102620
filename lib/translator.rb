@@ -47,6 +47,12 @@ def get_english_meaning(file_path, emoticon)
   hash= load_library(file_path)
   
   
-  binding.pry
+  #binding.pry
   
+  hash.find(emoticon) do |key, value|
+    
+    key[value][:japanese]
+    
+    
+  end 
 end
