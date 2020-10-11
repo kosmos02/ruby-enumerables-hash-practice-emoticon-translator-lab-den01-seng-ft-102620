@@ -50,7 +50,7 @@ def get_english_meaning(file_path, emoticon)
   
   #binding.pry
   
-  hash.each  do |key, value|
+  hash.each do |key, value|
     
     #binding.pry
     
@@ -69,6 +69,12 @@ def get_english_meaning(file_path, emoticon)
     
   end 
   
-  english_key
+  if english_key != ""
+    
+    english_key
+    
+  else
+    
+    "Sorry, that emoticon was not found"
   
 end
