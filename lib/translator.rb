@@ -33,7 +33,7 @@ def get_japanese_emoticon(emoticon)
   
   new_hash.find do |item|
     
-    
+
   
   
   
