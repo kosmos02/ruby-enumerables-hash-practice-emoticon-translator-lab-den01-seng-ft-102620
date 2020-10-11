@@ -52,6 +52,8 @@ def get_english_meaning(file_path, emoticon)
   
   hash.each  do |key, value|
     
+    binding.pry
+    
     if key[:english] == emoticon 
       
       english_key= key
