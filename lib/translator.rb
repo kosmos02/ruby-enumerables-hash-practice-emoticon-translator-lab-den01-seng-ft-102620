@@ -29,7 +29,7 @@ end
 def get_japanese_emoticon(emoticon)
   # code goes here
   
-  load_library
+  load_library(file_path)
   
   binding.pry
     
