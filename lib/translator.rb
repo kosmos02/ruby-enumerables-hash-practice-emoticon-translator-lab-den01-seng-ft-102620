@@ -69,6 +69,6 @@ def get_english_meaning(file_path, emoticon)
     
   end 
   
-  english_keys
+  english_key
   
 end
