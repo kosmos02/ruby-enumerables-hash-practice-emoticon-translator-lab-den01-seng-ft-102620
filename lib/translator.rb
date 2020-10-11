@@ -26,8 +26,17 @@ def load_library(file_path)
 end
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon(emoticon)
   # code goes here
+  
+  load_library
+  
+  new_hash.find do |item|
+    
+    
+  
+  
+  
 end
 
 def get_english_meaning
