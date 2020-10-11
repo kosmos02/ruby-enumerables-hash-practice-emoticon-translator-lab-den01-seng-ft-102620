@@ -10,8 +10,8 @@ def load_library(file_path)
   
   new_hash = {}
   
-  
-    emojis.each do |key, value|
+  emojis.each do |key, value|
+    
     new_hash[key]= {}
     
     new_hash[key][:english] = value[0]
