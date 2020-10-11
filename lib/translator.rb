@@ -44,9 +44,8 @@ end
 def get_english_meaning(file_path, emoticon)
   # code goes here
   
-  load_library(file_path)
+  hash= load_library(file_path)
   
-  new_hash
   
   binding.pry
   
