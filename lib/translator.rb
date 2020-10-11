@@ -31,7 +31,7 @@ def get_japanese_emoticon(emoticon)
   
   load_library
   
-  new_hash.find do |item|
+  new_hash.has_value? do |item|
     
 
   
