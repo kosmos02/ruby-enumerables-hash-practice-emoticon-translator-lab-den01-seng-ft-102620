@@ -50,15 +50,17 @@ def get_english_meaning(file_path, emoticon)
   
   #binding.pry
   
-  hash.include?(emoticon) do |key, value|
+  hash.each  do |key, value|
     
     if key[:english] == emoticon 
       
       english_key= key
       
+      binding.pry
+      
     end
     
-    binding.pry
+    
     
     
     
