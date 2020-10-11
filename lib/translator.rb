@@ -26,17 +26,29 @@ def load_library(file_path)
 end
 
 
-def get_japanese_emoticon(emoticon)
+def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   
-  #load_library(file_path)
+  hash= load_library(file_path)
   
   #binding.pry
-    
-    
-    
-   
   
+  japanese_emoticon = ""
+  
+  hash.each do |key, value|
+    
+    binding.pry
+    
+    if value[:english] == emoticon
+      
+      japanese_emoticon = value[:japanese]
+      
+    end
+    
+    
+  end  
+   
+  japanese_emoticon
   
   
 end
