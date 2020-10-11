@@ -46,12 +46,13 @@ def get_english_meaning(file_path, emoticon)
   
   hash= load_library(file_path)
   
+  english_key=""
   
   #binding.pry
   
   hash.find(emoticon) do |key, value|
     
-    #binding.pry
+    binding.pry
     
     key
     
