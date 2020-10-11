@@ -48,10 +48,19 @@ def get_japanese_emoticon(file_path, emoticon)
     
   end  
    
-  japanese_emoticon
+  if japanese_emoticon != ""
+    
+    japanese_emoticon
+    
+  else
+    
+    "Sorry, that emoticon was not found"
   
+  end 
   
 end
+
+
 
 def get_english_meaning(file_path, emoticon)
   # code goes here
@@ -73,11 +82,6 @@ def get_english_meaning(file_path, emoticon)
       #binding.pry 
       
     end
-    
-    
-    
-    
-    
     
   end 
   
