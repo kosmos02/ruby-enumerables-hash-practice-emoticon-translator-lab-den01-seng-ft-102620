@@ -56,7 +56,7 @@ def get_english_meaning(file_path, emoticon)
       
       english_key= key
       
-      
+      binding.pry 
       
     end
     
