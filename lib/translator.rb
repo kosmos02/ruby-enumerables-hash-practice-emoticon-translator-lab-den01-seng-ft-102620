@@ -33,7 +33,7 @@ def get_japanese_emoticon(emoticon)
   
   new_hash.has_value?(emoticon) do 
     
-    binding.pry
+    
     
   end 
   
