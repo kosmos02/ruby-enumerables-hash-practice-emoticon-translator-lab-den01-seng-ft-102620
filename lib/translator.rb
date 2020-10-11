@@ -51,7 +51,7 @@ def get_english_meaning(file_path, emoticon)
   
   hash.find(emoticon) do |key, value|
     
-    binding.pry
+    #binding.pry
     
     value[:japanese]
     
